@@ -28,7 +28,7 @@ prefixes=["." , "!"]
 
 #change the chats & the bot_id(users)
 #i tried fix it but sadly i cant , maybe in future ill fix it 
-@fastly.on_message(filters.photo & filters.chat(chats=[-1001266552555,-1001355881913,-1001577467953,-1001577467953]) & filters.user(users=[ 1877720720 , 1983714367 , 5053950120]))
+@fastly.on_message(filters.photo & filters.chat(chats=[-1001266552555,-1001355881913,-1001577467953,-1001577467953,-1001384708196]) & filters.user(users=[ 1877720720 , 1983714367 , 5053950120]))
 async def ping (Client:fastly , message:Message):    
     path = await fastly.download_media(message ,file_name='bot_img.jpg')
     print("not working")
