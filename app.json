@@ -1,8 +1,30 @@
 {
     "name": "FastlyWrite UserBot",
-    "description": "A Telegram Which helps u to score more in fastlywritebot",
+    "description": "A Telegram Which helps you to score more in fastlywritebot",
     "repository": "https://github.com/raveen2k3/FastlyWriteUB",
     "logo": "https://p.favim.com/orig/2019/03/04/fujiwara-chika-anime-kaguya-sama-love-is-war-Favim.com-6976575.jpg",
-    "keywords": ["telegram", "python", "bot"]
-    
+    "keywords": ["telegram", "python", "bot"],
+    "builpacks": [{ "url": "heroku/python" }],
+    "env": {
+      "SESSION_NAME": {
+          "description": "Your pyrogram session string.",
+          "required": true
+      },
+      "API_ID": {
+          "description": "API_ID of your Telegram Account my.telegram.org/apps",
+          "required": true
+      },
+      "API_HASH": {
+          "description": "API_HASH of your Telegram Account my.telegram.org/apps",
+          "required": true
+      },
+      "AUTHORIZED_CHATS": {
+          "description": "A list of authorized chats. (Separate with space) If you want to use bot in all chat, leave this empty.",
+          "required": false
+      },
+      "TESTERS":{
+          "description": "A list of testers. Separate with space.",
+          "required": false
+      }
+    }
   }
