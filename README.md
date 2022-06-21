@@ -19,11 +19,8 @@ DEPLOY YOUR OWN BOT : [![Deploy](https://www.herokucdn.com/deploy/button.svg)](h
 <p>API_ID</p>
 <p>API_HASH</p>
 <p>SESSION_NAME</p>
-
-<h1 align="center">EDIT LINE 32 IN bot.py </h1>
-
-<p>chats=</p>
-<p>users=</p>
+<p>AUTHORIZED_CHATS</p>
+<p>TESTERS</p>
 
 <a href="https://t.me/BakaSupport">Have any doubts ? join here and ask !</a>
 
