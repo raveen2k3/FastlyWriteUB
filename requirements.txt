@@ -2,4 +2,4 @@ Pillow==9.1.1
 Pyrogram==2.0.26
 pytesseract==0.3.9
 tgcrypto==1.2.3
-
+python-dotenv
