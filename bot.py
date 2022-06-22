@@ -25,6 +25,7 @@ alive_msg = f"""
 
 prefixes = [".", "!"]
 
+
 @fastly.on_message(
     filters.photo
     & filters.chat(CHATS)

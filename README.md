@@ -21,7 +21,6 @@ DEPLOY YOUR OWN BOT : [![Deploy](https://www.herokucdn.com/deploy/button.svg)](h
 <p>SESSION_NAME</p>
 <p>AUTHORIZED_CHATS</p>
 <p>TESTERS</p>
-
 <a href="https://t.me/BakaSupport">Have any doubts ? join here and ask !</a>
 
 IF YOU LIKE THIS SERVICE FOLLOW MY ACCOUNT & GIVE STARS : <a href="https://github.com/raveen2k3">Raveen</a>
