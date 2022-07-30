@@ -21,10 +21,6 @@
       "AUTHORIZED_CHATS": {
           "description": "A list of authorized chats. (Separate with space) If you want to use bot in all chat, leave this empty.",
           "required": false
-      },
-      "TESTERS":{
-          "description": "A list of testers. Separate with space.",
-          "required": false
       }
     }
   }
