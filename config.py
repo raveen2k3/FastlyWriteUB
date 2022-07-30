@@ -13,4 +13,4 @@ if CHATS:
     CHATS = CHATS.split("")
 TESTERS = getenv("TESTERS", None)
 if TESTERS:
-    TESTERS = TESTERS.split("")
+    TESTERS = TESTERS.split(" ")
